@@ -1,13 +1,17 @@
 .container{
-    height: 200vh;
+    box-sizing: border-box;
+    height: 100vh;
+    border: 2px solid violet;
+    position: relative;
 }
 
 .first{
-    height: 50%;
-    background-color: rebeccapurple;
+    position: absolute;
+    bottom: 0;
+    padding: 3rem 1rem;
+    
+}
+span{
+    display: block;
 }
 
-.second{
-    background-color: blue;
-    height: 50%;
-}

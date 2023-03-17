@@ -1,4 +1,11 @@
 .container{
-    height: 100vh;
+    
     background-color: grey;
+}
+
+.proyect{
+    border: 2px solid yellow;
+    background-color: black;
+    color: white;
+    height: 100vh;
 }

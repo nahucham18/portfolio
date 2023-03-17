@@ -6,9 +6,9 @@ const Home = () =>{
     return(
         <div className={style.container}>
             <div className={style.home}>
-            <h2 className={style.name}>Nahuel Chamorro</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aliquid maiores a fugit facere magnam, animi exercitationem voluptas doloribus ipsam nisi tenetur. Soluta fugiat iure temporibus officia. Qui, odio. Dolore.</p>
-            <Link>Contacto</Link>
+                <h2 className={style.name}>Nahuel Chamorro</h2>
+                <p className={style.intro}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aliquid maiores a fugit facere magnam, animi exercitationem voluptas doloribus ipsam nisi tenetur. Soluta fugiat iure temporibus officia. Qui, odio. Dolore.</p>
+                <Link className={style.btn_contacto}>Contacto</Link>
             </div>
         </div>
     )
