@@ -1,11 +1,31 @@
 .container{
-    
+    box-sizing: border-box;
     background-color: grey;
+    padding: 2rem 0;
+}
+
+.title{
+    margin: 0;
+    font-size: 2rem;
 }
 
 .proyect{
-    border: 2px solid yellow;
-    background-color: black;
-    color: white;
-    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+    padding: 1rem;
+    height: 80vh;
+}
+
+.imagen{
+    background-color: blue;
+    height: 50%;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
 }
