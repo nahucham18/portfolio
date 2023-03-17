@@ -1,0 +1,13 @@
+.container{
+    height: 200vh;
+}
+
+.first{
+    height: 50%;
+    background-color: rebeccapurple;
+}
+
+.second{
+    background-color: blue;
+    height: 50%;
+}
