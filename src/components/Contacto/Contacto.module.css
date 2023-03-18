@@ -3,7 +3,47 @@
     height: 120vh;
     background-color: #111;
     position: relative;
-    padding: 2rem;
+    padding: 3rem;
+    
+}
+
+.medios{
+    padding: 2rem 0;
+}
+
+.medio{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+    gap: 1rem;
+}
+
+.icon_medio{
+    font-size: 1.6rem;
+    background-color: #242424;
+    padding: 0.8rem;
+    border-radius: 0.6rem;
+    -webkit-border-radius: 0.6rem;
+    -moz-border-radius: 0.6rem;
+    -ms-border-radius: 0.6rem;
+    -o-border-radius: 0.6rem;
+}
+
+.info_contact{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: start;
+}
+
+.info_contact > p {
+    margin: 0;
+    opacity: 0.5;
+}
+
+.info_contact > span{
+    font-weight: bold;
 }
 
 .form{

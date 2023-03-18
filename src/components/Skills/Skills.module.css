@@ -4,14 +4,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 2px solid violet;
+    
 }
 
 .skill{
-    
-    
-    
-    border: 1px solid green;
+    padding: 1rem 1rem;
 }
 
 .skill_up{
@@ -29,9 +26,9 @@
 
 .skill_down {
     height: 5px;
-    background-color: blue;
+    background-color: #D5CEA3;
     width: 90%;
-    margin: 0 auto;
+    margin:0 auto;
 
     
 }
