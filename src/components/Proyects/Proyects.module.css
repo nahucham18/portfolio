@@ -1,7 +1,9 @@
 .container{
+    margin-top: 2rem;
     box-sizing: border-box;
     background-color: #111;
     padding: 3rem 2rem 1rem 2rem;
+
 }
 
 .title{
@@ -14,18 +16,24 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     
     
-    padding: 1rem;
-    height: 80vh;
+    padding:1rem;
+    
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 .imagen{
-    background-color: blue;
-    height: 50%;
-    border-radius: 2rem;
-    -webkit-border-radius: 2rem;
-    -moz-border-radius: 2rem;
-    -ms-border-radius: 2rem;
-    -o-border-radius: 2rem;
+    background-color: #3C2A21;
+    
+    width: 80%;
+    max-width: 200px;
+    min-height: 100px;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
 }

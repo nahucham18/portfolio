@@ -1,4 +1,7 @@
 .container{
-    height: 20vh;
-    background-color: lightblue;
+    box-sizing: border-box;
+    
+    background-color:#ddd;
+    color: #111;
+    padding: 0.4rem;
 }

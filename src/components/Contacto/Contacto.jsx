@@ -1,6 +1,7 @@
 import style from './Contacto.module.css'
 import {ImWhatsapp} from "react-icons/im";
-import {FiHome, FiMail} from "react-icons/fi";
+import {FiHome} from "react-icons/fi";
+import { HiOutlineMailOpen } from 'react-icons/hi';
 
 
 const Contacto = () =>{
@@ -23,13 +24,14 @@ const Contacto = () =>{
                         <span>Visit Us</span>
                         <p>Prov. Rio Negro</p>
                     </div>
+                    
                 </div>
-
                 <div className={style.medio}>
-                    <FiMail className={style.icon_medio}/>
+                <HiOutlineMailOpen className={style.icon_medio}/>
+                
                     <div className={style.info_contact}>
-                        <span>Visit Us</span>
-                        <p>nahu.chamo19@gmail.com</p> 
+                        <span>Email Us</span>
+                        <p>nahu. chamo19@gmail.com</p> 
                     </div>   
                 </div>
             </div>
@@ -38,7 +40,7 @@ const Contacto = () =>{
                 <input className={style.input} type="text" name='email' placeholder='Type Your Email'/>
                 <input className={style.input} type="text" name='subject' placeholder='Type Your Subject'/>
                 <textarea className={style.input_area} name="mensaje" id="" placeholder='Type Your Message' rows={'5'}></textarea>
-                <input type="submit" value={'Enviar'} />
+                <input className={style.btn} type="submit" value={'Enviar'} />
                 
             </form>
         </div>
