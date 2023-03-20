@@ -2,6 +2,7 @@
     box-sizing: border-box;
     height: 100vh;
     min-height: 550px;
+
     max-width: 500px;
     margin: 0 auto;
     position: relative;
@@ -23,3 +24,26 @@ span{
     display: block;
 }
 
+@media (min-width: 576px){
+    .container{
+        height: 50vh;
+        max-width: 650px;
+        
+    }
+
+    .imagen{
+        object-fit: cover;
+        object-position:0 -130px;
+    }
+}
+
+@media (min-width:768px) {
+    .container{
+        height: 40vh;
+        min-height: 500px;
+        max-width: 800px;
+    }
+    .imagen{
+        object-position:0 -170px;
+    }
+}

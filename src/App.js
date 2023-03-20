@@ -9,13 +9,35 @@ import Proyects from './components/Proyects/Proyects';
 import Contacto from './components/Contacto/Contacto';
 import Map from './components/Map/Map';
 import Footer from './components/Footer/Footer';
+import { animateScroll as scroll, scroller} from 'react-scroll'
+import { Element } from 'react-scroll'
+
+
 
 function App() {
+
+  // const ancla = (name) =>{
+    const abajo = () =>{
+      scroll.scrollToBottom();
+    }
+  //   scroller.scrollTo(name)
+  // }
+
+  const mostrar = (asd) =>{
+    scroller.scrollTo(asd)
+    // console.log(text)
+    console.log(asd);
+  }
+
   return (
     <div className="App">
-        <Nav/>  
+        <Nav mostrar={mostrar}/>  
+        <span>asd</span>
+        <span>asd</span>
+        <span>asd</span>
+        <span onClick={abajo}>abajo</span>
         <Home/>
-        <About/>
+        <Element name='About'><About/></Element> 
         <Skills/>
         <Proyects/>
         <Contacto/>

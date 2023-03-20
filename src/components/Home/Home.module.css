@@ -5,12 +5,10 @@
     flex-direction: column;
     align-items: center;
     padding-top: 5rem;
-    
 }
 
 .home{
     box-sizing: border-box;
-    
     padding:2rem ;
     
 }
@@ -45,4 +43,20 @@
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
     cursor: pointer;
+}
+
+@media ( min-width: 576px){
+    .container{
+        height: 60vh;
+    }
+    .home{
+        width: 80%;
+    }
+
+}
+
+@media (min-width: 768px){
+    .container{
+        height: 70vh;
+    }
 }

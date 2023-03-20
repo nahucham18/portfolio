@@ -1,0 +1,48 @@
+.container{
+    background-color: #1A120B;
+    /* animation-name: mostrarMenu; 
+    animation-duration: 1s;
+    
+    
+    width: 100%;
+    z-index:2; */
+    z-index: 2;
+}
+
+/* @keyframes mostrarMenu{
+    0%{
+        background-color: aqua;
+        transform: translateY(-100%);
+        -webkit-transform: translateY(-100%);
+        -moz-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+        -o-transform: translateY(-100%);
+}
+
+    100%{
+        background-color: blue;
+        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -o-transform: translateY(0%);
+}
+} */
+
+.menu{
+    
+    list-style: none;
+    color: #ddd;
+    text-align: start;
+    padding-left: 1rem;
+    margin: 0;
+
+}
+
+.li{
+   margin: 1rem 0; 
+   cursor: pointer;
+   font-size: 1rem;
+   margin: 0;
+   padding: 1rem;
+}

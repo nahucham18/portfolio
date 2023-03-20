@@ -1,20 +1,22 @@
 .container{
     
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    
+    
+    
     max-width: 450px;
     margin: 0 auto;
 }
 
 .skill{
+    box-sizing: border-box;
     padding: 1rem 1rem;
 }
 
 .skill_up{
     box-sizing: border-box;
     display: flex;
+    
     justify-content: space-between;
     width: 100%;
     padding:0 1rem;
@@ -32,4 +34,28 @@
     margin:0 auto;
 
     
+}
+
+@media (min-width:576px){
+    .container{
+        max-height: 600px;
+        max-width: 80%;
+    }
+}
+@media (min-width:768px){
+    .container{
+        height: fit-content;
+        max-width: 90%;
+        
+        flex-direction: row;
+    }
+
+    .all_skills{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .skill{
+        width: 50%;
+    }
 }

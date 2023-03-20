@@ -9,7 +9,28 @@
     width: 100%;
     right: 0;
     
-    height: 50vh;
+    height: 65vh;
     position: absolute;
     bottom: 20px;
+}
+
+
+
+@media (min-width: 576px){
+
+    .container{
+        height: 40vh;
+    }
+    .iframe{
+        height: 50vh;
+    }
+}
+@media (min-width: 768px){
+
+    .container{
+        height: 40vh;
+    }
+    .iframe{
+        height: 50vh;
+    }
 }
