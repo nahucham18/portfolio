@@ -4,7 +4,6 @@ const NavMenu = (props) =>{
     
     const scroll = (event) =>{
         props.mostrar(event.target.innerText)
-        console.log(event.target.innerText);
     }
 
     return (
